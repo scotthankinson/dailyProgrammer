@@ -71,7 +71,7 @@ const solve_jan_29 = (line1: string, line2: string) => {
         }
     }
     // console.log(depths);
-    console.log(sets);
+    // console.log(sets);
     const all: any = {};
     const winners: any = [];
     sets.forEach(value => {
