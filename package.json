@@ -1,0 +1,34 @@
+{
+    "name": "daily-programmer",
+    "version": "0.0.0",
+    "description": "monkeying about",
+    "license": "MIT",
+    "repository": "",
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "keywords": [
+        ""
+    ],
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "npm run build && node dist/index.js",
+        "clean": "rm -rf dist",
+        "build": "npm run clean && tsc",
+        "lint": "tslint -c ./tslint.json 'src/**/*.ts' 'test/**/*.ts'"
+    },
+    "dependencies": {
+        "@types/node": "^8.0.47",
+        "typescript": "^2.5.3"
+    },
+    "devDependencies": {
+        "ts-node": "^3.3.0",
+        "tslint": "^5.8.0",
+        "tslint-microsoft-contrib": "^5.0.1"
+    },
+    "engines": {
+        "node": "8.x.x"
+    }
+}
