@@ -34,5 +34,4 @@ const encodeBase62 = (input: number, alphabet: string[]) => {
     return output;
 }
 
-
 start_feb_20();

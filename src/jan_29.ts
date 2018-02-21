@@ -1,7 +1,7 @@
 "use strict";
 // tslint:disable
 
-const start_jan_29 = (): void => {
+const start = (): void => {
     solve_jan_29("Input: 10 5 5 2 2 1", "Output: n <= 3");
     // Solution:  [5, 5]
     // Smallest result: 2
@@ -29,7 +29,7 @@ const start_jan_29 = (): void => {
 };
 
 module.exports = {
-    start_jan_29
+    start
 };
 
 const solve_jan_29 = (line1: string, line2: string) => {
@@ -128,4 +128,4 @@ const buildSets = (arrayLength: number, sets: any[], depth: number) => {
     return sets;
 }
 
-start_jan_29();
+start();
